@@ -95,3 +95,29 @@ header a {
     margin-bottom: 0.25rem;
     padding: 0.25rem;
 }
+/*Nav styles with dropdown burger */
+
+nav {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 1px 2px 2px var(--hover-color);
+    background-color: var(--hover-color);
+    display: none;
+    top: 100%;
+}
+
+#nav-toglle:checked~nav {
+    display: block;
+}
+
+/* Here to style to not appear the checkbox */
+#nav-toglle {
+    display: none;
+}
+
+.nav-burger {
+    font-size: 2rem;
+    padding-top: 15px;
+}
