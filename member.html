@@ -47,6 +47,73 @@
                 <br>
                 <p>I'll be in touch soon!</p>
             </div>
+            <form id="member-form" method="POST" action="https://formdump.codeinstitute.net">
+                <div class="form-fields">
+                    <div class="labels">
+                        <label for="first_name">First Name:</label>
+                        <input type="text" name="first_name" id="first_name" class="text-input" required>
+                        <br>
+                        <label for="last_name">Last Name:</label>
+                        <input type="text" name="last_name" id="last_name" class="text-input" required>
+                        <br>
+                        <label for="email_address">Email Address:</label>
+                        <input type="email" name="email_address" id="email_address" class="text-input" required>
+                        <br>
+                        <label for="phone-number">Phone Number:</label>
+                        <input type="tel" name="phone-number" id="phone-number" class="text-input" required>
+                        <br>
+                        <label for="date-of-birthday">Date of Birth:</label>
+                        <input type="date" name="date-of-birthday" id="date-of-birthday" class="text-input" required>
+                        <br>
+                        <!--DropdownList Signs option-->
+                        <label for="sign">Choose your sign:</label>
+                        <select id="sign" name="sign">
+                            <option value="aries">Aries</option>
+                            <option value="taurus">Taurus</option>
+                            <option value="gemini">Gemini</option>
+                            <option value="cancer">Cancer</option>
+                            <option value="leo">Leo</option>
+                            <option value="virgo">Virgo</option>
+                            <option value="libra">Libra</option>
+                            <option value="scorpio">Scorpio</option>
+                            <option value="sagittarius">Sagittarius</option>
+                            <option value="capricorn">Capricorn</option>
+                            <option value="aquarius">Aquarius</option>
+                            <option value="pisces">Pisces</option>
+                        </select>
+                    </div>
+                </div>
+                <div>
+                    <!--Checkbox Services availabe-->
+                    <h4>Services:</h4>
+                </div>
+                <div class="services-fields">
+                    <div>
+                        <input type="checkbox" name="tarot-reading" id="tarot-reading" checked>
+                        <label for="tarot-reading">Tarot Reading</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="palm-reading" id="palm-reading">
+                        <label for="palm-reading">Palm Reading</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="cristal-ball" id="cristal-ball">
+                        <label for="cristal-ball">Cristal Ball</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="daily-horoscope" id="daily-horoscope">
+                        <label for="daily-horoscope">Daily Horoscope</label>
+                    </div>
+                    <!--Additional textarea-->
+                    <div class="additional">
+                        <label for="additional-info">Additional information:</label>
+                        <textarea id="additional-info" name="additional-info" rows="6"
+                            placeholder="Add any additional information"></textarea>
+                    </div>
+                </div>
+                <input type="submit" value="Apply" class="button-form">
+            </form>
+        </section>
     </main>
     <!--Footer with contacts available-->
     <footer>
