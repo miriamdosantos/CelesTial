@@ -333,6 +333,40 @@ a.link-button:hover {
     margin-top: 10px
 }
 
+.card img {
+    max-width: 70%;
+    margin-top: 15px;
+    padding-left: 2rem;
+    border-radius: 8px;
+    min-height: 15rem;
+
+}
+
+/*style for the text about the cards*/
+.intro h3 {
+    color: var(--secondary-color);
+}
+
+.intro {
+    margin-left: 12px;
+    padding: 5%;
+    text-align: justify;
+}
+
+#palm-reading .card>img {
+    height: 100%;
+    width: 100%;
+}
+
+.price {
+    font-size: 1.2rem;
+    /* Tamanho da fonte */
+    color: var(--secondary-color);
+    /* Cor do texto */
+    font-weight: bold;
+}
+
+
 
 /*Footer Style */
 footer {
