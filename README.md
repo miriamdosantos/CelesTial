@@ -78,6 +78,36 @@ The webiste is comprised of 3 pages, three of which are acessible from the naveg
 * Relative measures were also applied to image sizes, divs, and sections across all pages, as suggested and explained by the tutor to enhance responsiveness.  
 ### Unfixed Bugs
 All bugs identified were fixed
+ --------- 
+## Deployment    
+### Versin Control
+
+ * The site was created using VS Code as IDE and pushed to Github to the remote repository 'CelesTial'.
+ * Git commands were employed extensively during development to push the code to the remote repository. The sequence of Git commands utilized includes:
+    * **git add .**: This command adds the files to the staging area, preparing them for commitment.
+    * **git commit -m "commit message"**: It commits the changes to the local repository queue, marking them as ready for the final step.
+    * **git push**: This command is executed to push all committed code to the remote repository on Github.  
+    ### Deployment to Github pages
+    The site was deployed to GitHub pages. The steps taken to deploy are as follows:
+    1. Log in to Github(https://github.com/);
+    2. Navigate to [(https://github.com/miriamdosantos/CelesTial)] in the list of repositories;
+    3. In the GitHub repository, navigate to the Settings tab;
+    4. In Settings scroll down to GitHub pages which opens in a new page;
+    5. From the source section drop-down menu, select the Master Branch;
+    6. Once the master branch has been selected, the page is automatically refreshed and a display indicates the successful deployment and the link to the address.  
+    ### Cloning Repository Code locally
+    * To clone the repository code locally, follow these steps:
+        1. Navigate to the Github repository you wish to clone;
+        2. Click on the "Code" button located above all the project files;
+        3. Select "HTTPS" and copy the repository link;
+        4. Open the IDE of your choice and paste the copied git URL into the IDE terminal;
+        5. Press Enter to execute the command;
+        6. The project will now be created as a local clone in your IDE.
+
+
+
+
+
 
 
 
