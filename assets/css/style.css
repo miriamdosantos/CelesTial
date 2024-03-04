@@ -386,3 +386,27 @@ footer {
         gap: 2.5rem;
     }
 }
+
+/* About-Section */
+.heading-container {
+    margin-top: 3rem;
+    margin-left: 650px;
+    font-size: 25px;
+}
+
+#text1,
+#text2 {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    gap: 18px;
+ }
+
+.about-text__container__image {
+    width: 100%;
+    margin-left: 300px;
+    padding-top: 7rem;
+    min-height: 70%;
+    margin-right: 5%;
+        /* Adicione esta linha */
+}
