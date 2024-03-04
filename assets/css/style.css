@@ -397,7 +397,20 @@ a.link-button:hover {
     color: var(--shadow-color);
 }
 
+/*  Location section style */
+.location-text {
+    display: flex;
+    gap: 10px;
+    padding-left: 10px;
 
+}
+.iframe-container {
+    width: 100%;
+    /* largura fixa */
+    height: 200px;
+    /* altura fixa */
+    margin: 0 auto;
+}
 
 /*Footer Style */
 footer {
