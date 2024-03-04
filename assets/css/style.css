@@ -404,12 +404,18 @@ a.link-button:hover {
     padding-left: 10px;
 
 }
-.iframe-container {
+iframe-container {
     width: 100%;
     /* largura fixa */
     height: 200px;
     /* altura fixa */
     margin: 0 auto;
+}
+
+.iframe-container iframe {
+    width: 100%;
+    /* ocupar toda a largura do contêiner */
+    height: 100%
 }
 
 /*style apply to the list with the hours open */
