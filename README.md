@@ -48,5 +48,27 @@ The webiste is comprised of 3 pages, three of which are acessible from the naveg
 
  ### Features left to implement
  * I would like to add a dropdown menu with services available;
- * I would like to add a payment method on the page.
+ * I would like to add a payment method on the page.  
+ ## Testing
+ * Accessibility
+    * I used Lighthouse within the Chrome Developer Tools to allow me to test the performance, accessibility, best practices and SEO of the website.And confirmed that the colors and fonts are easy to read and that the site is accessible.  
+    * **INDEX PAGE**
+    ![Lighthouse Index page screenshot ](./documentation/index-lighthouse.png)  
+    * **SERVICES PAGE**  
+    ![Lighthouse Services page screenshot ](./documentation/index-lighthouse.png)  
+     * **Member PAGE**  
+     ![Lighthouse Member page screenshot ](./documentation/index-lighthouse.png) 
+* The website was tested on Chrome, Mozilla, Edge and Safari browsers with no problems found.
+* Links: Tested and confirmed that each link refer to each page, worked as expected,and redirecting the user between the pages
+* Tested all  links, to social media sites leading to external pages opened correctly in a seperate browser tab.
+* I tested and confirmed that the Member form works, all fields are required, the check buttons one of them is checked, and  the email field only accpect email, and the apply buttun works perfectly in the end to submit the form, with a messa back from Code Institute. 
+![Screenshot of data from the form submit ](./documentation/member-form.png)
+* HTML  
+    * HTML Validator (https://validator.w3.org/#validate_by_upload) was run each page of the project, and small syntax errors identified were fixed. At the final stage no errors or warnings were found.
+    ![Screenshot Html pages validator ](./documentation/html-validator.png)
+* CSS  
+    * CSS Validator (https://validator.w3.org/#validate_by_upload) was run each page of the project, and small syntax errors identified were fixed. At the final stage no errors or warnings were found.
+    ![Screenshot CSS page validator ](./documentation/css-validator.png)
+
+
 
