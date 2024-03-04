@@ -95,6 +95,7 @@ header a {
     margin-bottom: 0.25rem;
     padding: 0.25rem;
 }
+
 /*Nav styles with dropdown burger */
 
 nav {
@@ -135,6 +136,7 @@ main {
     display: flex;
     flex-direction: column;
 }
+
 /*Hero image section */
 #hero-image {
     min-height: 36vh;
@@ -289,7 +291,6 @@ main {
     max-width: 90%;
 }
 
-
 /*Footer Style */
 footer {
     padding: 15px;
@@ -324,29 +325,32 @@ footer {
     flex-direction: column;
     align-items: center;
 }
+
 /*Media query: tablets and larger(428px and up) */
 @media screen and (min-width:428px) {
     /*Use the keyframes library to give rotation animation to the image
 and create a classe for that to aply the style -- https://www.youtube.com/watch?v=eTELLTacg-8-- */
 
-@keyframes image-rotation-animation {
-    0% {
-        transform: rotate(0deg);
+    @keyframes image-rotation-animation {
+        0% {
+            transform: rotate(0deg);
+        }
+
+        100% {
+            transform: rotate(360deg);
+        }
     }
 
-    100% {
-        transform: rotate(360deg);
+    .other-images {
+        animation: image-rotation-animation 5s linear;
     }
-}
 
-.other-images {
-    animation: image-rotation-animation 5s linear;
 }
 
 
-    /*Media query: tablets and larger(768px and up) */
+/*Media query: tablets and larger(768px and up) */
 @media screen and (min-width:768px) {
-        /* Header */
+    /* Header */
 
     nav {
         display: block;
@@ -377,11 +381,12 @@ and create a classe for that to aply the style -- https://www.youtube.com/watch?
         text-decoration: none;
     }
 }
- /*Media query: laptops and larger(992px and up) */
+
+/*Media query: laptops and larger(992px and up) */
 @media screen and (min-width:992px) {
     header {
         height: 73px;
-           
+
     }
 
     #img-logo {
@@ -403,28 +408,37 @@ and create a classe for that to aply the style -- https://www.youtube.com/watch?
         padding: 1rem;
         gap: 2.5rem;
     }
-}
 
-/* About-Section */
-.heading-container {
-    margin-top: 3rem;
-    margin-left: 650px;
-    font-size: 25px;
-}
+     /* About-Section */
+     .heading-container {
+        margin-top: 3rem;
+        margin-left: 650px;
+        font-size: 25px;
+    }
 
-#text1,
-#text2 {
-    display: flex;
-    flex-direction: row;
-    width: 70%;
-    gap: 18px;
- }
+    #text1,
+    #text2 {
+        display: flex;
+        flex-direction: row;
+        width: 70%;
+        gap: 18px;
+     }
 
-.about-text__container__image {
-    width: 100%;
-    margin-left: 300px;
-    padding-top: 7rem;
-    min-height: 70%;
-    margin-right: 5%;
-        /* Adicione esta linha */
+    .about-text__container__image {
+        width: 100%;
+        margin-left: 300px;
+        padding-top: 7rem;
+        min-height: 70%;
+        margin-right: 5%;
+            /* Adicione esta linha */
+    }
+
+    .text-paraghp {
+        padding-left: 70px;
+        font-size: 20px;
+        line-height: 2;
+        margin-top: 150px;
+
+    }
+
 }
