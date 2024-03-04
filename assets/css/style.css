@@ -121,3 +121,65 @@ nav {
     font-size: 2rem;
     padding-top: 15px;
 }
+
+
+    /*Media query: tablets and larger(768px and up) */
+    @media screen and (min-width:768px) {
+        /* Header */
+
+    nav {
+        display: block;
+        position: relative;
+        background-color: var(--primary-color);
+        top: 0;
+    }
+
+    .nav-burger {
+        display: none;
+    }
+
+    #menu {
+        display: flex;
+        justify-content: flex-end;
+        padding: 0.25rem;
+        gap: 1rem;
+
+    }
+
+    #menu li a {
+        color: var(--secondary-color);
+        margin-left: 4rem;
+        font-size: 1.3rem;
+    }
+
+    #menu a {
+        text-decoration: none;
+    }
+}
+ /*Media query: laptops and larger(992px and up) */
+@media screen and (min-width:992px) {
+    header {
+        height: 73px;
+           
+    }
+
+    #img-logo {
+
+        height: 4.3rem;
+    }
+
+    #menu a:hover {
+        border-bottom: 2px solid var(--shadow-color);
+        border-radius: 5px;
+    }
+
+    #menu {
+        padding: 1rem;
+        gap: 2.5rem;
+    }
+
+    #menu {
+        padding: 1rem;
+        gap: 2.5rem;
+    }
+}
