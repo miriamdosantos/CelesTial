@@ -617,6 +617,27 @@ footer {
 
 /*Media query: tablets and larger(428px and up) */
 @media screen and (min-width:428px) {
+/*Media query: tablets and larger(428px and up) */
+@media screen and (min-width:428px) {
+    #hero-image__cover-text-title__text {
+        top: 68%;
+    }
+
+    #hero-image__cover-text-title__text h4 {
+        margin-top: 10px;
+        font-size: 1.2rem;
+        /* Adicione o ponto e vírgula aqui */
+        padding-top: 0;
+    }
+
+    #hero-image__cover-text-title__text h5 {
+        font-size: 1.2rem;
+        padding-top: 0;
+    }
+
+    #hero-image__button {
+        top: 85%;
+    }
 
     /*Use the keyframes library to give rotation animation to the image
 and create a classe for that to aply the style -- https://www.youtube.com/watch?v=eTELLTacg-8-- */
@@ -692,6 +713,31 @@ and create a classe for that to aply the style -- https://www.youtube.com/watch?
     #menu a {
         text-decoration: none;
     }
+    #hero-image__cover-text-title__text {
+        top: 68%;
+    }
+
+    #hero-image__cover-text-title__text h4 {
+        margin-top: 10px;
+        font-size: 1.5rem;
+         /* Adicione o ponto e vírgula aqui */
+        padding-top: 0;
+    }
+
+    #hero-image__cover-text-title__text h5 {
+        font-size: 1.2rem;
+        padding-top: 0;
+    }
+
+    #hero-image__button {
+        top: 85%;
+    }
+
+
+    #hero-image__button button {
+        width: 150px;
+        height: 25px;
+   }
 
 
         /* Make the section servies responsive adopting GRID for a better layout*/
