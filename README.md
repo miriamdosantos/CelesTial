@@ -104,6 +104,13 @@ All bugs identified were fixed
     4. Open the IDE of your choice and paste the copied git URL into the IDE terminal;
     5. Press Enter to execute the command;
     6. The project will now be created as a local clone in your IDE.
+    --------- 
+    ## Wiframes
+    * The site was developed with the Desktop layout  method first. The wireframes were therefore drawn with that thought in mind and adapted along of the project, and created with [Balsamiq](https://balsamiq.cloud/) . First picture: Home page, Second picture: Services page, Third picture: Member page.
+    ![Screenshot Home page Wiframe ](./wireframes/home-wiframe.png)
+    ![Screenshot Services page Wiframe ](./wireframes/services-wiframe.png)
+    ![Screenshot Member page Wiframe](./wireframes/member-wiframe.png)
+
 
 
 
