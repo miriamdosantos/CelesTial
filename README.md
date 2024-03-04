@@ -41,4 +41,12 @@ The webiste is comprised of 3 pages, three of which are acessible from the naveg
     * Location section: The location section offers users vital details about the physical presence. A visually engaging map presents our exact location, ensuring clarity for users. Below the map, concise text provides essential information such as our address, contact details, and operating hours. Additionally, a captivating video further enhances the user experience, offering insights into our location and facilities.
     The layout of the location section is meticulously designed to adapt seamlessly across various screen sizes. Whether accessed on a desktop, tablet, or mobile device, users can effortlessly access the location information and video, facilitating convenient navigation and planning for their visit.
     ![Location google maps address /operation times and celeste video](./documentation/location-section.png)  
+    * Member page
+    * The Member Page serves as a personalized hub where visitors can explore a diverse range of mystical services and celestial insights. Designed with a clean and intuitive layout, with a picture of Celeste on the baground it offers a seamless browsing experience, guiding users through the enchanting offerings available, with a form to apply for it.  
+    The layout, crafted using responsive design principles, ensures optimal viewing across various devices, from desktops to mobile phones.
+    ![Member page with a form to apply for the services or contact CelesTial](./documentation/member-page.png)
+
+ ### Features left to implement
+ * I would like to add a dropdown menu with services available;
+ * I would like to add a payment method on the page.
 
