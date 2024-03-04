@@ -1,5 +1,4 @@
 # CelesTial
----------
 
 The CelesTial website is an enchanting online sanctuary dedicated to mystical services and celestial exploration. 
 
@@ -11,8 +10,9 @@ Users will find a variety of mystical services, including tarot readings, palmis
 
 ![Site images in all screens size responsive](./documentation/responsive.png)
 
-## Features
 ---------
+## Features
+
 The webiste is comprised of 3 pages, three of which are acessible from the navegation menu (Home, Services, Member) for the last a Code institute Congratulations submition form.
 * All pages on the webiste have:
     * Clear Navigation: Easily navigate through different sections of the website, including Home, About, Services, and Contact, situated to the right.
@@ -48,7 +48,8 @@ The webiste is comprised of 3 pages, three of which are acessible from the naveg
 
  ### Features left to implement
  * I would like to add a dropdown menu with services available;
- * I would like to add a payment method on the page.  
+ * I would like to add a payment method on the page. 
+ --------- 
  ## Testing
  * Accessibility
     * I used Lighthouse within the Chrome Developer Tools to allow me to test the performance, accessibility, best practices and SEO of the website.And confirmed that the colors and fonts are easy to read and that the site is accessible.  
@@ -69,6 +70,15 @@ The webiste is comprised of 3 pages, three of which are acessible from the naveg
 * CSS  
     * CSS Validator (https://validator.w3.org/#validate_by_upload) was run each page of the project, and small syntax errors identified were fixed. At the final stage no errors or warnings were found.
     ![Screenshot CSS page validator ](./documentation/css-validator.png)
+---------
+## Bugs
+* Initially, positioning the header with navigation correctly across different media sizes posed a challenge, resulting in duplicated lines. However, this issue was resolved after examining the use of relative measures in the width and height of elements.
+![Screenshot Navigation Bug ](./documentation/bug.png)
+
+* Relative measures were also applied to image sizes, divs, and sections across all pages, as suggested and explained by the tutor to enhance responsiveness.  
+### Unfixed Bugs
+All bugs identified were fixed
+
 
 
 
