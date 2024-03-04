@@ -732,7 +732,7 @@ and create a classe for that to aply the style -- https://www.youtube.com/watch?
     .card-center {
          margin-left: 12rem;
     }
-
+    /*Member form fields*/
     .services-fields {
         display: flex;
         flex-wrap: wrap;
@@ -842,4 +842,9 @@ and create a classe for that to aply the style -- https://www.youtube.com/watch?
 
     }
 
+    /*member page/form - services-fields adjust to big sreenc sizes */
+    .services-fields>div {
+        flex-basis: calc(25% - 15px);
+        /* Redefine a largura dos contêineres dos campos de serviço para 25% com um espaçamento entre eles */
+    }
 }
