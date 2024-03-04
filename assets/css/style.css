@@ -309,6 +309,30 @@ main {
     /*Make the card biiger when hover*/
 }
 
+/*classe to create effect on the hover to the text */
+a.link-button {
+    text-decoration: none;
+    display: inline-block;
+    padding: 2px 20px;
+    background-color: var(--hover-color);
+    color: var(--primary-color);
+    border: 2px solid var(--shadow-color);
+    border-radius: 12px;
+    /*transiction effect*/
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+}
+
+/*changing the proprities when its hover */
+a.link-button:hover {
+    background-color: var(--shadow-color);
+    color: var(--primary-color);
+    border-color: var(--hover-color);
+}
+
+.card p {
+    margin-top: 10px
+}
+
 
 /*Footer Style */
 footer {
