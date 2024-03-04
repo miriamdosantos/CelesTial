@@ -412,6 +412,40 @@ a.link-button:hover {
     margin: 0 auto;
 }
 
+/*style apply to the list with the hours open */
+.time {
+    height: 100px;
+    max-width: 50%;
+    padding-left: 25%;
+}
+
+.time h3 {
+    padding-top: 15px;
+    color: var(--shadow-color);
+    padding-left: 30%;
+    margin-bottom: 10px;
+}
+
+.time ul {
+    list-style-type: none;
+    border: 3px solid var(--shadow-color);
+    box-shadow: 5px 5px 20px var(--hover-color);
+    width: fit-content;
+    padding: 10px;
+}
+
+.time ul li {
+    color: var(--tertiary-color);
+    padding: 5px;
+}
+
+
+.video-container {
+    width: 100%;
+    height: 400px;
+    margin: 18% auto;
+}
+
 /*Footer Style */
 footer {
     padding: 15px;
