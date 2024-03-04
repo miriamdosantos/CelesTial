@@ -135,6 +135,40 @@ main {
     display: flex;
     flex-direction: column;
 }
+/*Footer Style */
+footer {
+    padding: 15px;
+    background-color: var(--hover-color);
+}
+
+#footer-social-media-contact {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    align-items: center;
+    gap: 10%;
+
+}
+
+#footer-social-media-contact i {
+    color: var(--secondary-color);
+    font-size: 160%;
+    padding: 5%;
+
+}
+
+
+.footer-social-media-contact__email>a {
+    text-decoration: none;
+    color: var(--shadow-color);
+
+}
+
+.footer-social-media-contact__email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 
     /*Media query: tablets and larger(768px and up) */
