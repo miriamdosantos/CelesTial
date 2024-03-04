@@ -65,20 +65,21 @@ The webiste is comprised of 3 pages, three of which are acessible from the naveg
 * I tested and confirmed that the Member form works, all fields are required, the check buttons one of them is checked, and  the email field only accpect email, and the apply buttun works perfectly in the end to submit the form, with a messa back from Code Institute. 
 ![Screenshot of data from the form submit ](./documentation/member-form.png)
 * HTML  
-    * HTML Validator (https://validator.w3.org/#validate_by_upload) was run each page of the project, and small syntax errors identified were fixed. At the final stage no errors or warnings were found.
+    * [HTML Validator](https://validator.w3.org/#validate_by_upload) was run each page of the project, and small syntax errors identified were fixed. At the final stage no errors or warnings were found.
     ![Screenshot Html pages validator ](./documentation/html-validator.png)
 * CSS  
-    * CSS Validator (https://validator.w3.org/#validate_by_upload) was run each page of the project, and small syntax errors identified were fixed. At the final stage no errors or warnings were found.
+    * [CSS Validator](https://validator.w3.org/#validate_by_upload) was run each page of the project, and small syntax errors identified were fixed. At the final stage no errors or warnings were found.
     ![Screenshot CSS page validator ](./documentation/css-validator.png)
 ---------
 ## Bugs
 * Initially, positioning the header with navigation correctly across different media sizes posed a challenge, resulting in duplicated lines. However, this issue was resolved after examining the use of relative measures in the width and height of elements.
 ![Screenshot Navigation Bug ](./documentation/bug.png)
 
-* Relative measures were also applied to image sizes, divs, and sections across all pages, as suggested and explained by the tutor to enhance responsiveness.  
+* Relative measures were also applied to image sizes, divs, and sections across all pages, as suggested and explained by the tutor to enhance responsiveness.
+---------   
 ### Unfixed Bugs
 All bugs identified were fixed
- --------- 
+
 ## Deployment    
 ### Versin Control
 
@@ -89,20 +90,20 @@ All bugs identified were fixed
     * **git push**: This command is executed to push all committed code to the remote repository on Github.  
     ### Deployment to Github pages
     The site was deployed to GitHub pages. The steps taken to deploy are as follows:
-    1. Log in to Github(https://github.com/);
-    2. Navigate to [(https://github.com/miriamdosantos/CelesTial)] in the list of repositories;
+    1. Log in to [Github](https://github.com/);
+    2. Navigate to [miriamdosantos/CelesTial](https://github.com/miriamdosantos/CelesTial) in the list of repositories;
     3. In the GitHub repository, navigate to the Settings tab;
     4. In Settings scroll down to GitHub pages which opens in a new page;
     5. From the source section drop-down menu, select the Master Branch;
     6. Once the master branch has been selected, the page is automatically refreshed and a display indicates the successful deployment and the link to the address.  
     ### Cloning Repository Code locally
     * To clone the repository code locally, follow these steps:
-        1. Navigate to the Github repository you wish to clone;
-        2. Click on the "Code" button located above all the project files;
-        3. Select "HTTPS" and copy the repository link;
-        4. Open the IDE of your choice and paste the copied git URL into the IDE terminal;
-        5. Press Enter to execute the command;
-        6. The project will now be created as a local clone in your IDE.
+    1. Navigate to the Github repository you wish to clone;
+    2. Click on the "Code" button located above all the project files;
+    3. Select "HTTPS" and copy the repository link;
+    4. Open the IDE of your choice and paste the copied git URL into the IDE terminal;
+    5. Press Enter to execute the command;
+    6. The project will now be created as a local clone in your IDE.
 
 
 
