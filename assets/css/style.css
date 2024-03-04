@@ -538,7 +538,19 @@ and create a classe for that to aply the style -- https://www.youtube.com/watch?
     }
 }
 
- 
+    /*Media query: tablets and larger(576px and up) */
+    @media screen and (min-width:576px) {
+        .location-text {
+            padding-left: 2rem;
+            margin-bottom: 1rem;
+            }
+    
+        .video {
+            padding-left: 5%;
+    
+        }
+    
+    } 
 
     /*Media query: tablets and larger(768px and up) */
 @media screen and (min-width:768px) {
