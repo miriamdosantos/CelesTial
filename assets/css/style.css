@@ -610,5 +610,19 @@ and create a classe for that to aply the style -- https://www.youtube.com/watch?
         align-items: flex-start;
         justify-content: flex-start;
     }
+    /*Make the testimonial section responsive using GRID for that*/
+    #testimonial-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .card-testimonial {
+         margin: 20px 3rem;
+    }
+
+    .card {
+        min-height: 60rem;
+        margin: 3%;
+    }
 
 }
