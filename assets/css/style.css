@@ -365,6 +365,7 @@ a.link-button:hover {
     /* Cor do texto */
     font-weight: bold;
 }
+
 /*Testimonial section style*/
 
 #testimonial-container {
@@ -404,19 +405,6 @@ a.link-button:hover {
     padding-left: 10px;
 
 }
-iframe-container {
-    width: 100%;
-    /* largura fixa */
-    height: 200px;
-    /* altura fixa */
-    margin: 0 auto;
-}
-
-.iframe-container iframe {
-    width: 100%;
-    /* ocupar toda a largura do contêiner */
-    height: 100%
-}
 
 /*style apply to the list with the hours open */
 .time {
@@ -448,9 +436,38 @@ iframe-container {
 
 .video-container {
     width: 100%;
+    /* largura fixa */
     height: 400px;
+    /* altura fixa */
     margin: 18% auto;
+    /* centralizar o vídeo horizontalmente */
 }
+
+/* Estilo para o vídeo dentro do contêiner */
+.video-container video {
+    width: 100%;
+    /* ocupar toda a largura do contêiner */
+    height: 100%;
+    /* ocupar toda a altura do contêiner */
+
+}
+
+
+/*Location */
+.iframe-container {
+    width: 100%;
+    /* largura fixa */
+    height: 200px;
+    /* altura fixa */
+    margin: 0 auto;
+}
+
+.iframe-container iframe {
+    width: 100%;
+    /* ocupar toda a largura do contêiner */
+    height: 100%
+}
+
 
 /*Footer Style */
 footer {
@@ -487,8 +504,12 @@ footer {
     align-items: center;
 }
 
+
+
+
 /*Media query: tablets and larger(428px and up) */
 @media screen and (min-width:428px) {
+
     /*Use the keyframes library to give rotation animation to the image
 and create a classe for that to aply the style -- https://www.youtube.com/watch?v=eTELLTacg-8-- */
 
@@ -506,12 +527,22 @@ and create a classe for that to aply the style -- https://www.youtube.com/watch?
         animation: image-rotation-animation 5s linear;
     }
 
+
+    /*member page*/
+    /*member form*/
+
+
+    /*Make services -fields responsives adjustament each differents screens sizes */
+    .services-fields>div {
+        flex-basis: calc(50% - 10px);
+    }
 }
 
+ 
 
-/*Media query: tablets and larger(768px and up) */
+    /*Media query: tablets and larger(768px and up) */
 @media screen and (min-width:768px) {
-    /* Header */
+        /* Header */
 
     nav {
         display: block;
@@ -542,7 +573,8 @@ and create a classe for that to aply the style -- https://www.youtube.com/watch?
         text-decoration: none;
     }
 
-    /* Make the section servies responsive adopting GRID for a better layout*/
+
+        /* Make the section servies responsive adopting GRID for a better layout*/
     #services {
         margin-top: 40px;
         display: grid;
@@ -569,34 +601,36 @@ and create a classe for that to aply the style -- https://www.youtube.com/watch?
     .intro {
         min-height: 95px;
     }
-}
-/*Testimonial cards responsive with GRID */
-#testimonial-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
 
+    /*Testimonial cards responsive with GRID */
+    #testimonial-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .card-center {
+         margin-left: 12rem;
+    }
+
+    .services-fields {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .services-fields>div {
+        flex-basis: calc(50% - 10px);
+        margin-bottom: 10px;
+    }
 }
 
-.card-center {
-     margin-left: 12rem;
-}
+    /*Media query: laptops and larger(992px and up) */
 
-.services-fields {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.services-fields>div {
-    flex-basis: calc(50% - 10px);
-    margin-bottom: 10px;
-}
-
-/*Media query: laptops and larger(992px and up) */
 @media screen and (min-width:992px) {
     header {
         height: 73px;
-
+           
     }
 
     #img-logo {
@@ -619,6 +653,9 @@ and create a classe for that to aply the style -- https://www.youtube.com/watch?
         gap: 2.5rem;
     }
 
+
+    
+
     /* About-Section */
     .heading-container {
         margin-top: 3rem;
@@ -632,7 +669,7 @@ and create a classe for that to aply the style -- https://www.youtube.com/watch?
         flex-direction: row;
         width: 70%;
         gap: 18px;
-    }
+     }
 
     .about-text__container__image {
         width: 100%;
@@ -640,7 +677,7 @@ and create a classe for that to aply the style -- https://www.youtube.com/watch?
         padding-top: 7rem;
         min-height: 70%;
         margin-right: 5%;
-        /* Adicione esta linha */
+            /* Adicione esta linha */
     }
 
     .text-paraghp {
@@ -651,18 +688,18 @@ and create a classe for that to aply the style -- https://www.youtube.com/watch?
 
     }
 
-    
 
-    /*Services card layout for big screen */ 
+    /*Services card layout for big screen */
     #services {
-        margin-top: 40px;
-        display: grid;
+         margin-top: 40px;
+         display: grid;
         grid-template-columns: repeat(4, 1fr);
         /* Adjusted number of columns */
         grid-gap: 2rem;
         align-items: flex-start;
         justify-content: flex-start;
     }
+
     /*Make the testimonial section responsive using GRID for that*/
     #testimonial-container {
         display: grid;
@@ -676,6 +713,13 @@ and create a classe for that to aply the style -- https://www.youtube.com/watch?
     .card {
         min-height: 60rem;
         margin: 3%;
+    }
+
+    /*video -location section */
+
+    .video-container video {
+        padding-top: 10rem;
+
     }
 
 }
