@@ -365,6 +365,37 @@ a.link-button:hover {
     /* Cor do texto */
     font-weight: bold;
 }
+/*Testimonial section style*/
+
+#testimonial-container {
+    width: 90%;
+}
+
+.card-testimonial .user {
+    width: 35%;
+    max-height: 10rem;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.card-testimonial {
+    width: 90%;
+    min-height: 300px;
+    background-color: var(--primary-color);
+    border-radius: 30px;
+    border: 2px solid var(--tertiary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px 40px;
+    margin: 20px 2rem;
+    box-shadow: 5px 5px 20px var(--hover-color);
+}
+
+.card-testimonial h3 {
+    margin-bottom: 5px;
+    color: var(--shadow-color);
+}
 
 
 
@@ -457,6 +488,7 @@ and create a classe for that to aply the style -- https://www.youtube.com/watch?
     #menu a {
         text-decoration: none;
     }
+
     /* Make the section servies responsive adopting GRID for a better layout*/
     #services {
         margin-top: 40px;
