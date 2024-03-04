@@ -110,6 +110,22 @@ All bugs identified were fixed
     ![Screenshot Home page Wiframe ](./wireframes/home-wiframe.png)
     ![Screenshot Services page Wiframe ](./wireframes/services-wiframe.png)
     ![Screenshot Member page Wiframe](./wireframes/member-wiframe.png)
+    --------- 
+    ## Credits
+    * I would like to extend a special thanks to my tutor [Spencer Barriball](https://www.linkedin.com/in/spencerbarriball/), whose guidance and support have been invaluable throughout this journey.
+    ### Content
+    * The icons in the footer and in the headings were taken from:[Font Awesome](https://fontawesome.com/).
+    * The Logo and Favicon was created at:[Canva](https://www.canva.com/).
+    * I took inspiration from the Love Running project to create the header, hero-image section and footer.
+    * [Google fonts](https://fonts.google.com/) were used to import the fonts into the style.css file which is used on all pages throughout the project.
+    *[COOLORS](https://coolors.co/) werw used to generate the color palettes, into the style.css file which is used on all pages throughout the project.
+    ### Media
+    * All the images in eache page of the site: Home, Services and Member was taken from: [Pexels](https://www.pexels.com/).
+    * The video in the home page as taken as well from [Pexels](https://www.pexels.com/).
+    * For a better performance of the website, the images was resizes and changed the format to WEBP using the [Birme](https://www.birme.net/) webiste.
+
+
+
 
 
 
