@@ -122,9 +122,23 @@ nav {
     padding-top: 15px;
 }
 
+/* Main - settings definitions to position */
+
+main {
+    /*Emerge main element to push footer down */
+    flex: 1 0 auto;
+    /*Add margin at the top to prevent content from being cover by the header */
+    padding-top: 75px;
+    top: 128px;
+
+    /*Enable flex properties for child elemnts */
+    display: flex;
+    flex-direction: column;
+}
+
 
     /*Media query: tablets and larger(768px and up) */
-    @media screen and (min-width:768px) {
+@media screen and (min-width:768px) {
         /* Header */
 
     nav {
