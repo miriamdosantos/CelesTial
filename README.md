@@ -38,3 +38,7 @@ The webiste is comprised of 3 pages, three of which are acessible from the naveg
     The layout of the testimonial section is designed for optimal viewing across different devices. 
     Using CSS Grid, the testimonials are displayed in a visually appealing format, adapting seamlessly to varying screen sizes. This ensures that visitors can easily read and engage with the testimonials, enhancing their overall experience on the website.
     ![Image of Testimonial Clients Cards](./documentation/testimonial-clients.png)  
+    * Location section: The location section offers users vital details about the physical presence. A visually engaging map presents our exact location, ensuring clarity for users. Below the map, concise text provides essential information such as our address, contact details, and operating hours. Additionally, a captivating video further enhances the user experience, offering insights into our location and facilities.
+    The layout of the location section is meticulously designed to adapt seamlessly across various screen sizes. Whether accessed on a desktop, tablet, or mobile device, users can effortlessly access the location information and video, facilitating convenient navigation and planning for their visit.
+    ![Location google maps address /operation times and celeste video](./documentation/location-section.png)  
+
