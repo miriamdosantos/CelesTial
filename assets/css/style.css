@@ -517,6 +517,27 @@ and create a classe for that to aply the style -- https://www.youtube.com/watch?
         min-height: 95px;
     }
 }
+/*Testimonial cards responsive with GRID */
+#testimonial-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.card-center {
+     margin-left: 12rem;
+}
+
+.services-fields {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.services-fields>div {
+    flex-basis: calc(50% - 10px);
+    margin-bottom: 10px;
+}
 
 /*Media query: laptops and larger(992px and up) */
 @media screen and (min-width:992px) {
