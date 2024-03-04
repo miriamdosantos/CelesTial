@@ -457,6 +457,33 @@ and create a classe for that to aply the style -- https://www.youtube.com/watch?
     #menu a {
         text-decoration: none;
     }
+    /* Make the section servies responsive adopting GRID for a better layout*/
+    #services {
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* Adjusted number of columns */
+        grid-gap: 2rem;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .card {
+        min-height: 60rem;
+        padding: 1rem;
+        margin: 3%;
+    }
+
+    .card img {
+        max-width: 90%;
+        min-height: 15rem;
+        padding-left: 3rem;
+
+    }
+
+    .intro {
+        min-height: 95px;
+    }
 }
 
 /*Media query: laptops and larger(992px and up) */
@@ -518,33 +545,7 @@ and create a classe for that to aply the style -- https://www.youtube.com/watch?
 
     }
 
-    /* Make the section servies responsive adopting GRID for a better layout*/
-    #services {
-        margin-top: 40px;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        /* Adjusted number of columns */
-        grid-gap: 2rem;
-        align-items: flex-start;
-        justify-content: flex-start;
-    }
-
-    .card {
-        min-height: 60rem;
-        padding: 1rem;
-        margin: 3%;
-    }
-
-    .card img {
-        max-width: 90%;
-        min-height: 15rem;
-        padding-left: 3rem;
-
-    }
-
-    .intro {
-        min-height: 95px;
-    }
+    
 
     /*Services card layout for big screen */ 
     #services {
