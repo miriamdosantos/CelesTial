@@ -135,6 +135,108 @@ main {
     display: flex;
     flex-direction: column;
 }
+/*Hero image section */
+#hero-image {
+    min-height: 36vh;
+    max-width: 99vw;
+    background: url('../images/hero-image.webp') no-repeat center right /cover;
+    position: relative;
+}
+
+#hero-image h1 {
+    margin-top: 5%;
+    margin-left: 5%;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    background-color: rgb(202, 180, 193);
+}
+
+/*Give to the hero image a cover text */
+#hero-image__cover-text-title__text {
+    /* Give the element horizontly position and vertical in the center*/
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    /* put the element in the center*/
+    max-width: 600px;
+    text-align: center;
+    color: var(--secondary-color);
+}
+
+#hero-image__cover-text-title__text h4,
+#hero-image__cover-text-title__text h5,
+#hero-image__cover-text-title__text ul {
+    /* give space between the elements */
+    margin-bottom: 4px;
+    font-size: 15px;
+}
+
+#hero-image__cover-text-title__text h5 {
+    font-size: 1rem;
+}
+
+#hero-image__cover-text-title__text h4 {
+    font-size: 0.8rem;
+    color: var(--secondary-color);
+    margin-top: 18px;
+}
+
+#hero-image__cover-text-title__text ul {
+    /*Reset list */
+    padding-left: 0;
+    list-style-type: none;
+}
+
+#hero-image__cover-text-title__text ul li {
+    margin-bottom: 5px;
+}
+
+/* button style in the hero section */
+#hero-image__button {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.button {
+    font-family: var(--second-font);
+    color: var(--primary-color);
+    font-size: 0.8rem;
+    padding: 2px;
+    font-weight: 600;
+    background-color: var(--secondary-color);
+    width: 128px;
+    height: 1.2rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-image__button a {
+    /*Make button display to put the itens vertical position */
+    text-decoration: none;
+    color: var(--primary-color);
+    display: flex;
+    align-items: center;
+}
+
+#hero-image__button i {
+    padding: 6px;
+    color: var(--hover-color);
+}
+
+
+.button:hover {
+    border-bottom: 2px solid var(--shadow-color);
+    background-color: var(--tertiary-color);
+    border-radius: 5px;
+}
 /*Footer Style */
 footer {
     padding: 15px;
