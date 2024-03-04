@@ -291,6 +291,25 @@ main {
     max-width: 90%;
 }
 
+/*Services Section Style */
+/*Create a card desing and prepare to the animation*/
+.card {
+    margin: 5%;
+    padding-left: 10%;
+    border-radius: 4px;
+    box-shadow: 5px 5px 20px var(--hover-color);
+    min-height: 300px;
+    transition: opacity 0.3s ease;
+    opacity: 1;
+}
+
+/*Effect when the mouse is hover to change the opacity */
+.card:hover {
+    transform: scale(1.08);
+    /*Make the card biiger when hover*/
+}
+
+
 /*Footer Style */
 footer {
     padding: 15px;
