@@ -486,8 +486,8 @@ and create a classe for that to aply the style -- https://www.youtube.com/watch?
         gap: 2.5rem;
     }
 
-     /* About-Section */
-     .heading-container {
+    /* About-Section */
+    .heading-container {
         margin-top: 3rem;
         margin-left: 650px;
         font-size: 25px;
@@ -499,7 +499,7 @@ and create a classe for that to aply the style -- https://www.youtube.com/watch?
         flex-direction: row;
         width: 70%;
         gap: 18px;
-     }
+    }
 
     .about-text__container__image {
         width: 100%;
@@ -507,7 +507,7 @@ and create a classe for that to aply the style -- https://www.youtube.com/watch?
         padding-top: 7rem;
         min-height: 70%;
         margin-right: 5%;
-            /* Adicione esta linha */
+        /* Adicione esta linha */
     }
 
     .text-paraghp {
@@ -517,32 +517,44 @@ and create a classe for that to aply the style -- https://www.youtube.com/watch?
         margin-top: 150px;
 
     }
-        /* Make the section servies responsive adopting GRID for a better layout*/
-        #services {
-            margin-top: 40px;
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            /* Adjusted number of columns */
-            grid-gap: 2rem;
-            align-items: flex-start;
-            justify-content: flex-start;
-        }
-    
-        .card {
-            min-height: 60rem;
-            padding: 1rem;
-            margin: 3%;
-        }
-    
-        .card img {
-            max-width: 90%;
-            min-height: 15rem;
-            padding-left: 3rem;
-    
-        }
-    
-        .intro {
-            min-height: 95px;
-        }
+
+    /* Make the section servies responsive adopting GRID for a better layout*/
+    #services {
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* Adjusted number of columns */
+        grid-gap: 2rem;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .card {
+        min-height: 60rem;
+        padding: 1rem;
+        margin: 3%;
+    }
+
+    .card img {
+        max-width: 90%;
+        min-height: 15rem;
+        padding-left: 3rem;
+
+    }
+
+    .intro {
+        min-height: 95px;
+    }
+
+    /*Services card layout for big screen */ 
+    #services {
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        /* Adjusted number of columns */
+        grid-gap: 2rem;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
 
 }
