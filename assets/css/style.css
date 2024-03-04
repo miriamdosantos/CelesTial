@@ -206,7 +206,7 @@ main {
 .button {
     font-family: var(--second-font);
     color: var(--primary-color);
-    margin-top:1rem;
+    margin-top: 1rem;
     padding: 1px;
     font-weight: 600;
     background-color: var(--secondary-color);
@@ -615,8 +615,7 @@ footer {
 
 
 
-/*Media query: tablets and larger(428px and up) */
-@media screen and (min-width:428px) {
+
 /*Media query: tablets and larger(428px and up) */
 @media screen and (min-width:428px) {
     #hero-image__cover-text-title__text {
@@ -638,6 +637,13 @@ footer {
     #hero-image__button {
         top: 85%;
     }
+    .button {
+
+        width: 10rem;
+        height: 1.8rem;
+        border-radius: 50px;
+    }
+    
 
     /*Use the keyframes library to give rotation animation to the image
 and create a classe for that to aply the style -- https://www.youtube.com/watch?v=eTELLTacg-8-- */
@@ -667,23 +673,23 @@ and create a classe for that to aply the style -- https://www.youtube.com/watch?
     }
 }
 
-    /*Media query: tablets and larger(576px and up) */
-    @media screen and (min-width:576px) {
-        .location-text {
-            padding-left: 2rem;
-            margin-bottom: 1rem;
-            }
-    
-        .video {
-            padding-left: 5%;
-    
-        }
-    
-    } 
+/*Media query: tablets and larger(576px and up) */
+@media screen and (min-width:576px) {
+    .location-text {
+        padding-left: 2rem;
+        margin-bottom: 1rem;
+    }
 
-    /*Media query: tablets and larger(768px and up) */
+    .video {
+        padding-left: 5%;
+
+    }
+
+}
+
+/*Media query: tablets and larger(768px and up) */
 @media screen and (min-width:768px) {
-        /* Header */
+    /* Header */
 
     nav {
         display: block;
@@ -713,6 +719,7 @@ and create a classe for that to aply the style -- https://www.youtube.com/watch?
     #menu a {
         text-decoration: none;
     }
+
     #hero-image__cover-text-title__text {
         top: 68%;
     }
@@ -720,7 +727,7 @@ and create a classe for that to aply the style -- https://www.youtube.com/watch?
     #hero-image__cover-text-title__text h4 {
         margin-top: 10px;
         font-size: 1.5rem;
-         /* Adicione o ponto e vírgula aqui */
+        /* Adicione o ponto e vírgula aqui */
         padding-top: 0;
     }
 
@@ -737,10 +744,12 @@ and create a classe for that to aply the style -- https://www.youtube.com/watch?
     #hero-image__button button {
         width: 150px;
         height: 25px;
-   }
+    }
+
+    
 
 
-        /* Make the section servies responsive adopting GRID for a better layout*/
+    /* Make the section servies responsive adopting GRID for a better layout*/
     #services {
         margin-top: 40px;
         display: grid;
@@ -776,8 +785,9 @@ and create a classe for that to aply the style -- https://www.youtube.com/watch?
     }
 
     .card-center {
-         margin-left: 12rem;
+        margin-left: 12rem;
     }
+
     /*Member form fields*/
     .services-fields {
         display: flex;
@@ -791,12 +801,12 @@ and create a classe for that to aply the style -- https://www.youtube.com/watch?
     }
 }
 
-    /*Media query: laptops and larger(992px and up) */
+/*Media query: laptops and larger(992px and up) */
 
 @media screen and (min-width:992px) {
     header {
         height: 73px;
-           
+
     }
 
     #img-logo {
@@ -818,6 +828,8 @@ and create a classe for that to aply the style -- https://www.youtube.com/watch?
         padding: 1rem;
         gap: 2.5rem;
     }
+
+
     #hero-image__cover-text-title__text {
         top: 70%;
     }
@@ -844,16 +856,10 @@ and create a classe for that to aply the style -- https://www.youtube.com/watch?
     #hero-image__button button {
         width: 200px;
         height: 25px;
-       
 
     }
 
-    .button {
-        
-        width: 10rem;
-        height: 2rem;
-        border-radius:50px;
-    }
+    
 
     /* About-Section */
     .heading-container {
@@ -868,7 +874,7 @@ and create a classe for that to aply the style -- https://www.youtube.com/watch?
         flex-direction: row;
         width: 70%;
         gap: 18px;
-     }
+    }
 
     .about-text__container__image {
         width: 100%;
@@ -876,7 +882,7 @@ and create a classe for that to aply the style -- https://www.youtube.com/watch?
         padding-top: 7rem;
         min-height: 70%;
         margin-right: 5%;
-            /* Adicione esta linha */
+        /* Adicione esta linha */
     }
 
     .text-paraghp {
@@ -890,8 +896,8 @@ and create a classe for that to aply the style -- https://www.youtube.com/watch?
 
     /*Services card layout for big screen */
     #services {
-         margin-top: 40px;
-         display: grid;
+        margin-top: 40px;
+        display: grid;
         grid-template-columns: repeat(4, 1fr);
         /* Adjusted number of columns */
         grid-gap: 2rem;
@@ -906,7 +912,7 @@ and create a classe for that to aply the style -- https://www.youtube.com/watch?
     }
 
     .card-testimonial {
-         margin: 20px 3rem;
+        margin: 20px 3rem;
     }
 
     .card {
@@ -926,4 +932,5 @@ and create a classe for that to aply the style -- https://www.youtube.com/watch?
         flex-basis: calc(25% - 15px);
         /* Redefine a largura dos contêineres dos campos de serviço para 25% com um espaçamento entre eles */
     }
+
 }
