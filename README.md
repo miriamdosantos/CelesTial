@@ -95,7 +95,8 @@ All bugs identified were fixed
     3. In the GitHub repository, navigate to the Settings tab;
     4. In Settings scroll down to GitHub pages which opens in a new page;
     5. From the source section drop-down menu, select the Master Branch;
-    6. Once the master branch has been selected, the page is automatically refreshed and a display indicates the successful deployment and the link to the address.  
+    6. Once the master branch has been selected, the page is automatically refreshed and a display indicates the successful deployment and the link to the address. 
+    The live live link can be acess here: [CelesTial](https://miriamdosantos.github.io/CelesTial/) 
     ### Cloning Repository Code locally
     * To clone the repository code locally, follow these steps:
     1. Navigate to the Github repository you wish to clone;
@@ -118,7 +119,7 @@ All bugs identified were fixed
     * The Logo and Favicon was created at:[Canva](https://www.canva.com/).
     * I took inspiration from the Love Running project to create the header, hero-image section and footer.
     * [Google fonts](https://fonts.google.com/) were used to import the fonts into the style.css file which is used on all pages throughout the project.
-    *[COOLORS](https://coolors.co/) werw used to generate the color palettes, into the style.css file which is used on all pages throughout the project.
+    [COOLORS](https://coolors.co/) werw used to generate the color palettes, into the style.css file which is used on all pages throughout the project.
     ### Media
     * All the images in eache page of the site: Home, Services and Member was taken from: [Pexels](https://www.pexels.com/).
     * The video in the home page as taken as well from [Pexels](https://www.pexels.com/).
