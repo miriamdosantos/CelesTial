@@ -117,9 +117,11 @@ All bugs identified were fixed
     ### Content
     * The icons in the footer and in the headings were taken from:[Font Awesome](https://fontawesome.com/).
     * The Logo and Favicon was created at:[Canva](https://www.canva.com/).
-    * I took inspiration from the Love Running project to create the header, hero-image section and footer.
+    * I took inspiration from the Love Running project to create the header, hero-image section and footer, and for development of the cards were based in [Youtube Class](https://www.youtube.com/watch?v=00LpIJ58FZ4).
     * [Google fonts](https://fonts.google.com/) were used to import the fonts into the style.css file which is used on all pages throughout the project.
     [COOLORS](https://coolors.co/) werw used to generate the color palettes, into the style.css file which is used on all pages throughout the project.
+    * Part of the English content in this website was generated with the assistance of [AI-ChatGPT](https://chat.openai.com/), an AI language model developed by OpenAI.
+
     ### Media
     * All the images in eache page of the site: Home, Services and Member was taken from: [Pexels](https://www.pexels.com/).
     * The video in the home page as taken as well from [Pexels](https://www.pexels.com/).
