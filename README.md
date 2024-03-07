@@ -21,8 +21,9 @@ The webiste is comprised of 3 pages, three of which are acessible from the naveg
     * The website logo and sets the main color theme; Rich black, Claret and Caramel, and a favicon was personalized create.
     ![Image of the navbar and the logo CelesTial](./documentation/navbar.png)
     * Dynamic Footer: the website boasts a dynamic footer section that provides essential links, such as social media profiles, contact information, and additional resources, ensuring easy access to relevant content and enhancing user engagement.
-    ![Image of the footer with all social medias contacs and copyright](./documentation/footer.png)
-    * The home page
+    ![Image of the footer with all social medias contacs and copyright](./documentation/footer.png)  
+
+* The home page
     * The website features an engaging homepage designed to captivate visitors from the moment they arrive. With stunning visuals, concise messaging, and intuitive navigation
     ![Image of the lading-page- horoscope wheel](./documentation/landing-page.png)
     *The section About: highlighting its role in introducing visitors to CelesTial's purpose and inviting them to engage with its mystical offerings. 
@@ -33,15 +34,19 @@ The webiste is comprised of 3 pages, three of which are acessible from the naveg
 
     * Apresentation of the Services offers as a card: **Tarot Reading**, **Palm Reading**, **Cristal Ball** and **Daily Horoscope**. Each service is accompanied by an eye-catching, realistic image to visually represent it. Beneath each image, the user will find concise paragraphs containing the essential information and details about the service. Additionally, the price of each service is clearly displayed for easy reference. At the bottom of each service description, users will find a button featuring a creative and inviting phrase. Clicking on this button will redirect you to the member page, where you can contact us, choose your desired service, and easily apply for it.
     ![Image of the Services cards - Tarot Reading, Palm Reading, Cristal Ball, Daily Horsocope](./documentation/services-cards.png)
-    Furthermore, the layout of the services section has been optimized for responsiveness using CSS Grid. This ensures that the services are displayed in varying numbers of columns, depending on the screen size, providing an optimal viewing experience across different devices." 
-     * Testimonial Cards: Each testimonial is accompanied by a captivating image, adding a personal touch to the feedback. Beneath each image, you'll find concise paragraphs containing the testimonial itself, along with the name of the satisfied customer. Additionally, we've incorporated a star rating system to provide a quick visual representation of their satisfaction level.  
+    Furthermore, the layout of the services section has been optimized for responsiveness using CSS Grid. This ensures that the services are displayed in varying numbers of columns, depending on the screen size, providing an optimal viewing experience across different devices."  
+     
+* Testimonial Cards: Each testimonial is accompanied by a captivating image, adding a      personal touch to the feedback. Beneath each image, you'll find concise paragraphs containing the testimonial itself, along with the name of the satisfied customer. Additionally, we've incorporated a star rating system to provide a quick visual representation of their satisfaction level.  
+
     The layout of the testimonial section is designed for optimal viewing across different devices. 
     Using CSS Grid, the testimonials are displayed in a visually appealing format, adapting seamlessly to varying screen sizes. This ensures that visitors can easily read and engage with the testimonials, enhancing their overall experience on the website.
     ![Image of Testimonial Clients Cards](./documentation/testimonial-clients.png)  
-    * Location section: The location section offers users vital details about the physical presence. A visually engaging map presents our exact location, ensuring clarity for users. Below the map, concise text provides essential information such as our address, contact details, and operating hours. Additionally, a captivating video further enhances the user experience, offering insights into our location and facilities.
+
+* Location section: The location section offers users vital details about the physical presence. A visually engaging map presents our exact location, ensuring clarity for users. Below the map, concise text provides essential information such as our address, contact details, and operating hours. Additionally, a captivating video further enhances the user experience, offering insights into our location and facilities.  
+
     The layout of the location section is meticulously designed to adapt seamlessly across various screen sizes. Whether accessed on a desktop, tablet, or mobile device, users can effortlessly access the location information and video, facilitating convenient navigation and planning for their visit.
     ![Location google maps address /operation times and celeste video](./documentation/location-section.png)  
-    * Member page
+* Member page
     * The Member Page serves as a personalized hub where visitors can explore a diverse range of mystical services and celestial insights. Designed with a clean and intuitive layout, with a picture of Celeste on the baground it offers a seamless browsing experience, guiding users through the enchanting offerings available, with a form to apply for it.  
     The layout, crafted using responsive design principles, ensures optimal viewing across various devices, from desktops to mobile phones.
     ![Member page with a form to apply for the services or contact CelesTial](./documentation/member-page.png)
